@@ -187,6 +187,7 @@ def run_interactive():
         for src, i in currents.items():
             print(f"{src}: {i:.2f} A")
 
+
    
     ans = input("\nCalculate Thévenin / Norton equivalent? (y/n): ").strip().lower()
     if ans == 'y':
